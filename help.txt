@@ -1,0 +1,8 @@
+rake db:setup
+
+Isso criará bancos de dados de desenvolvimento e teste, definirá seus proprietários para o usuário 
+especificado e criará tabelas de "schema_migrations" em cada um. Esta tabela é usada para registrar
+suas migrações para esquemas e dados.
+
+
+rails g scaffold Post title:string body:text
