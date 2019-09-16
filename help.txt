@@ -18,3 +18,8 @@ Permissao para instalar pacotes
 sudo chmod 1777 -R /home/yurekesley/.bundle/cache/compact_index
 
 depois é só rodar bundle install
+
+
+Adicionando column via migrate 
+
+rails generate migration add_path_img_to_filmes path_img:string
