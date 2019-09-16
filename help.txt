@@ -4,5 +4,17 @@ Isso criará bancos de dados de desenvolvimento e teste, definirá seus propriet
 especificado e criará tabelas de "schema_migrations" em cada um. Esta tabela é usada para registrar
 suas migrações para esquemas e dados.
 
-
 rails g scaffold Post title:string body:text
+
+
+Para usar o postgres, deve instalar os pacotes obrigatorios
+
+sudo apt-get install postgresql
+sudo apt-get install libpq-dev
+
+
+Permissao para instalar pacotes
+
+sudo chmod 1777 -R /home/yurekesley/.bundle/cache/compact_index
+
+depois é só rodar bundle install
