@@ -23,3 +23,9 @@ depois é só rodar bundle install
 Adicionando column via migrate 
 
 rails generate migration add_path_img_to_filmes path_img:string
+
+
+criando models 
+rails g model User name:string
+rails g model Post title:string body:text user:belongs_to
+rails db:migrate

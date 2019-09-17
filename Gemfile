@@ -18,6 +18,9 @@ gem 'rack-cors'
 #A RuboCop extension focused on enforcing Rails best practices and coding conventions.
 gem 'rubocop-rails'
 
+#
+#gem 'jbuilder', '~> 2.5'
+gem 'active_model_serializers', '~> 0.10.0'
 
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -27,7 +30,7 @@ gem 'rubocop-rails'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Use Active Storage variant
+# Use Active Storage variant----------------------
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
